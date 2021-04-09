@@ -1,14 +1,21 @@
 {
-  "name": "message-app-server",
-  "version": "1.0.0",
-  "main": "server.js",
-  "repository": "https://github.com/Genekoh/MessageAppServer.git",
-  "author": "Gene Koh",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  }
+    "name": "message-app-server",
+    "version": "1.0.0",
+    "main": "server.js",
+    "repository": "https://github.com/Genekoh/MessageAppServer.git",
+    "author": "Gene Koh",
+    "license": "MIT",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "pg": "^8.5.1",
+        "sequelize": "^6.6.2",
+        "socket.io": "^4.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
 }
